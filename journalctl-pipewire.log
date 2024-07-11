@@ -1,0 +1,4 @@
+Jun 21 17:30:32 picard systemd[1738]: Started PipeWire Multimedia Service.
+Jun 21 17:41:06 picard pipewire[1747]: pw.node: (bluez_output.BC_87_FA_1E_C5_36.1-73) running -> error (Received error event)
+Jun 21 17:43:30 picard systemd[1738]: Stopping PipeWire Multimedia Service...
+Jun 21 17:43:30 picard systemd[1738]: Stopped PipeWire Multimedia Service.

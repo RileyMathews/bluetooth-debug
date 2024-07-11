@@ -1,0 +1,65 @@
+Jun 21 17:30:19 picard systemd[1]: Starting Bluetooth service...
+Jun 21 17:30:19 picard bluetoothd[1599]: Bluetooth daemon 5.76
+Jun 21 17:30:19 picard systemd[1]: Started Bluetooth service.
+Jun 21 17:30:19 picard bluetoothd[1599]: Starting SDP server
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support bap plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support bass plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support mcp plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support vcp plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: profiles/audio/micp.c:micp_init() D-Bus experimental not enabled
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support micp plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support ccp plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: src/plugin.c:init_plugin() System does not support csip plugin
+Jun 21 17:30:19 picard bluetoothd[1599]: Bluetooth management interface 1.22 initialized
+Jun 21 17:30:19 picard bluetoothd[1599]: Battery Provider Manager created
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/ldac
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aptx_hd
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_hd
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aptx
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aac
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aac
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/sbc
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/sbc
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/faststream
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/opus_05
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/opus_05
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jun 21 17:30:34 picard bluetoothd[1599]: Endpoint registered: sender=:1.25 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jun 21 17:38:47 picard bluetoothd[1599]: /org/bluez/hci0/dev_BC_87_FA_1E_C5_36/sep3/fd0: fd(28) ready
+Jun 21 17:41:06 picard bluetoothd[1599]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+Jun 21 17:43:30 picard bluetoothd[1599]: Terminating
+Jun 21 17:43:30 picard systemd[1]: Stopping Bluetooth service...
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/ldac
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aptx_hd
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_hd
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aptx
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/aac
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aac
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/sbc
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/sbc
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/faststream
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/opus_05
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/opus_05
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jun 21 17:43:30 picard bluetoothd[1599]: Endpoint unregistered: sender=:1.25 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jun 21 17:43:30 picard bluetoothd[1599]: Battery Provider Manager destroyed
+Jun 21 17:43:30 picard bluetoothd[1599]: Stopping SDP server
+Jun 21 17:43:30 picard bluetoothd[1599]: Exit
+Jun 21 17:43:30 picard systemd[1]: bluetooth.service: Deactivated successfully.
+Jun 21 17:43:30 picard systemd[1]: Stopped Bluetooth service.

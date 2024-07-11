@@ -1,0 +1,16 @@
+Jun 21 17:30:32 picard systemd[1738]: Started Multimedia Service Session Manager.
+Jun 21 17:30:34 picard wireplumber[1748]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jun 21 17:30:34 picard wireplumber[1748]: [0:00:41.073770272] [1748] ERROR IPAModule ipa_module.cpp:172 Symbol ipaModuleInfo not found
+Jun 21 17:30:34 picard wireplumber[1748]: [0:00:41.073794698] [1748] ERROR IPAModule ipa_module.cpp:292 v4l2-compat.so: IPA module has no valid info
+Jun 21 17:30:34 picard wireplumber[1748]: [0:00:41.073849255] [1748]  INFO Camera camera_manager.cpp:313 libcamera v0.3.0
+Jun 21 17:38:34 picard wireplumber[1748]: spa.bluez5.native: RFCOMM receive command but modem not available: AT+BTRH?
+Jun 21 17:38:35 picard wireplumber[1748]: spa.bluez5.native: RFCOMM receive command but modem not available: AT+XEVENT=Bose SoundLink,158
+Jun 21 17:38:35 picard wireplumber[1748]: spa.bluez5.native: RFCOMM receive command but modem not available: AT+CSRSF=0,0,0,1,0,0,0
+Jun 21 17:41:06 picard wireplumber[1748]: spa.bluez5.sink.media: 0x6130cc561f48: error 24
+Jun 21 17:41:06 picard wireplumber[1748]: spa.audioconvert: 0x6130cc7872b0: (0 suppressed) out of buffers on port 0 3
+Jun 21 17:41:06 picard wireplumber[1748]: pw.node: (bluez_output.BC_87_FA_1E_C5_36.1-73) running -> error (Received error event)
+Jun 21 17:41:06 picard wireplumber[1748]: spa.bluez5: Failure in Bluetooth audio transport /org/bluez/hci0/dev_BC_87_FA_1E_C5_36/sep3/fd0
+Jun 21 17:43:30 picard systemd[1738]: Stopping Multimedia Service Session Manager...
+Jun 21 17:43:30 picard wireplumber[1748]: wireplumber: stopped by signal: Terminated
+Jun 21 17:43:30 picard wireplumber[1748]: wireplumber: disconnected from pipewire
+Jun 21 17:43:30 picard systemd[1738]: Stopped Multimedia Service Session Manager.
